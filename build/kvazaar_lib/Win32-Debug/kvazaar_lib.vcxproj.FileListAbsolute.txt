@@ -1,0 +1,2 @@
+F:\open_codec_learn_2021\kvazaar-master\build\Win32-Debug-libs\kvazaar_lib.pdb
+F:\open_codec_learn_2021\kvazaar-master\build\kvazaar_lib\Win32-Debug\kvazaar_lib.pdb

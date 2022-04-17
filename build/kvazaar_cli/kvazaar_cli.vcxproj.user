@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>--input F:\test_seq\HEVC\Kimono1_1920x1080_24.yuv --input-res 1920x1080 --o .\kvazaar_Kimono1_1920x1080_24_1.h265 --frames 100 --ref 1 --period 0 --no-info --qp 37 --no-rdoq --hash none  </LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>--input 33333</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>--input F:\test_seq\HEVC\Kimono1_1920x1080_24.yuv --input-res=1920x1080 -o .\kvazaar_Kimono1_1920x1080_24_1.h265 --frames 100 --ref 1 --period 100 --no-info --qp 37 --no-rdoq --hash none  </LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,5 @@
+﻿  Assembling x86inc.asm
+  getopt.c
+  threadqueue.c
+  pthread.cpp
+  kvazaar_lib.vcxproj -> C:\Users\84038\Desktop\video_codec_thread_test\build\Win32-Release-libs\kvazaar_lib.lib
